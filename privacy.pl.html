@@ -145,6 +145,9 @@
             <li><strong>Metadane plików:</strong> informacje o przesłanych plikach multimedialnych (rozmiar, format, data utworzenia)</li>
         </ul>
 
+        <h3>1.7. Wyszukiwanie AI</h3>
+        <p>Korzystając z wyszukiwania AI, możemy przetwarzać treść zapytania, miasto, strefę czasową i aktualny czas, współrzędne (jeśli zezwolisz na lokalizację) oraz ogólne sygnały: zainteresowania z profilu i kategorie ostatnio oglądanych treści. Nazwa użytkownika i czaty nie są przekazywane. Zapytania trafiają przez nasz serwer proxy po HTTPS do usługi Google Gemini wyłącznie w celu zrozumienia zapytania.</p>
+
         <h2>2. Wykorzystanie informacji</h2>
         <p>Zebrane informacje wykorzystujemy do następujących celów:</p>
         
@@ -235,6 +238,8 @@
         <p>Do działania aplikacji korzystamy z następujących usług:</p>
         <ul>
             <li><strong>Google Firebase:</strong> do przechowywania danych, uwierzytelniania użytkowników i wysyłania powiadomień push. Firebase jest częścią Google Cloud Platform i przestrzega rygorystycznych standardów bezpieczeństwa.</li>
+            <li><strong>Google Firebase Crashlytics i Google Analytics for Firebase:</strong> raporty o awariach i statystyki korzystania z aplikacji: identyfikatory instalacji i urządzenia, model urządzenia, wersja systemu i aplikacji, zdarzenia w aplikacji</li>
+            <li><strong>Google Gemini (przez nasz serwer proxy):</strong> przetwarzanie zapytań tekstowych w wyszukiwaniu AI</li>
             <li><strong>Dostawcy usług mapowych:</strong> do wyświetlania map i funkcji lokalizacyjnych</li>
             <li><strong>Dostawcy hostingu multimediów:</strong> do przechowywania i dostarczania zdjęć i wideo</li>
         </ul>
@@ -356,12 +361,13 @@
         <p>Kontynuując korzystanie z aplikacji po wprowadzeniu zmian, akceptujesz zaktualizowaną politykę. Zalecamy okresowe przeglądanie tej strony.</p>
 
         <h2>12. Usunięcie konta</h2>
-        <p>Możesz usunąć swoje konto w dowolnym momencie w ustawieniach aplikacji. Po usunięciu konta:</p>
+        <p>Możesz usunąć swoje konto w dowolnym momencie w ustawieniach aplikacji lub <a href="https://yolo-test-version.web.app/delete-account.html#pl">zgodnie z tą instrukcją</a>. Po usunięciu konta:</p>
         <ul>
-            <li>Wszystkie twoje dane osobowe zostaną usunięte z naszych systemów</li>
-            <li>Twoje momenty, wydarzenia i wiadomości zostaną usunięte</li>
-            <li>Twój profil stanie się niedostępny dla innych użytkowników</li>
-            <li>Niektóre dane mogą być przechowywane w kopiach zapasowych do 90 dni</li>
+            <li>Usuwane są profil, zdjęcia profilowe, momenty, opinie i kolekcje miejsc</li>
+            <li>Czaty prywatne są usuwane w całości, a z czatów grupowych i wydarzeń usuwane są Twoje wiadomości</li>
+            <li>Wydarzenia i społeczności, w których jesteś jedynym uczestnikiem, są usuwane. Jeśli są inni uczestnicy, przechodzą na kolejnego uczestnika, a Ty znikasz z listy</li>
+            <li>Zgłoszenia i informacje o blokadach przechowujemy tak długo, jak jest to potrzebne do moderacji i bezpieczeństwa</li>
+            <li>Kopie w archiwach są usuwane w ciągu 90 dni</li>
         </ul>
         <p>Pamiętaj, że informacje, które upubliczniłeś (na przykład momenty, na które odpowiedzieli inni użytkownicy), mogą pozostać widoczne w kontekście odpowiedzi innych użytkowników.</p>
 
